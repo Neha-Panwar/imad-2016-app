@@ -47,7 +47,9 @@ var title= data.title;
 var date= data.date;
 var heading= data.heading;
 var content= data.content;
+
 var htmlTemplate=`
+<html>
 <head>
     <title>
      ${title}
@@ -58,7 +60,7 @@ var htmlTemplate=`
 <body>
     <div class="container">
          <div>
-         <a href="/">home</a>
+         <a href="/">Home</a>
          </div>
          <hr/>
          <h3>
@@ -68,7 +70,6 @@ var htmlTemplate=`
          <div>
              ${date}
          </div>
-        
          <div>
            ${content}
          </div>
